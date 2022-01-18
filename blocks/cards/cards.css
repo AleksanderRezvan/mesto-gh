@@ -1,0 +1,16 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 17px;
+    row-gap: 20px;
+    box-sizing: border-box;
+
+    max-width: 880px;
+    margin: 0 auto;
+}
+@media (max-width: 920px) {
+    .cards {
+        padding: 0 19px;
+    }
+}

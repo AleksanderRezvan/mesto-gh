@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="pages/index.css">
+    
+</head>
+<body class="page-background">
+    <div class="page">
+        <header class="header">
+            <img class="header__logo" src="img/logo.svg" alt="Логотип">
+        </header>
+
+        <section class="profile">
+            <img class="profile__avatar" src="img/kysto.jpg" alt="Кусто">
+
+            <div class="profile__info">
+                <h1 class="profile__title">Жак-Ив Кусто</h1>
+                <button class="profile__info-button"></button>
+                <p class="profile__text">Исследователь океана</p>
+            </div>
+
+            <button class="profile__button"></button>
+        </section>
+
+        <section class="cards">
+
+            <article class="card">
+                <img class="card__image" src="img/karachaevsk.jpg" alt="Карачаевск">
+
+                <div class="card__content">
+                    <h3 class="card__title">Карачаевск</h3>
+
+                    <div class="card__like"></div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="card__image" src="img/elbrus.jpg" alt="Эльбрус">
+
+                <div class="card__content">
+                    <h3 class="card__title">Эльбрус</h3>
+
+                    <div class="card__like"></div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="card__image" src="img/dombai.jpg" alt="Домбай">
+
+                <div class="card__content">
+                    <h3 class="card__title">Домбай</h3>
+
+                    <div class="card__like"></div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="card__image" src="img/elbrus.jpg" alt="Эльбрус">
+
+                <div class="card__content">
+                    <h3 class="card__title">Эльбрус</h3>
+
+                    <div class="card__like"></div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="card__image" src="img/karachaevsk.jpg" alt="Карачаевск">
+
+                <div class="card__content">
+                    <h3 class="card__title">Карачаево-Черкессия</h3>
+
+                    <div class="card__like"></div>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="card__image" src="img/dombai.jpg" alt="Домбай">
+
+                <div class="card__content">
+                    <h3 class="card__title">Домбай</h3>
+
+                    <div class="card__like"></div>
+                </div>
+            </article>
+
+        </section>
+
+        <footer class="footer">
+            <p class="footer__copyright">&#169; 2020 Mesto Russia</p>
+        </footer>
+    </div>
+
+    <div class="popup">
+        <div class="popup__container">
+            <h3 class="popup__title">Редактировать профиль</h3>
+            <form class="popup__form" action="#" method="post">
+                <input class="popup__form-name" type="text" name="name" value="Жак-Ив Кусто">
+                <input class="popup__form-job" type="text" name="job" value="Исследователь океана">
+
+                <button class="popup__button-save" type="submit">Сохранить</button>
+            
+                <button class="popup__close" type="button"></button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
