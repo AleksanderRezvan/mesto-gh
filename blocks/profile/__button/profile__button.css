@@ -1,22 +1,19 @@
 .profile__button {
     width: 150px;
     height: 50px;
-
     padding: 0;
     border: 2px solid #ffffff;
-
     color: inherit;
-
     background-color: #000000;
     background-image: url(../../../img/cross.svg);
     background-repeat: no-repeat;
     background-position: center center;
-
     border-radius: 2px;
 }
 @media (max-width: 787px) {
     .profile__button {
         width: 100%;
+        box-sizing: border-box;
     }
 }
 .profile__button:hover {

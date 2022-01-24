@@ -1,14 +1,18 @@
 .profile__text {
+    max-width: 336px;
     margin: 0;
-
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;   
+    overflow: hidden;
+
 }
 @media (max-width: 787px) {
     .profile__text {
+        max-width: 265px;
         padding-bottom: 32px;
-
         font-size: 14px;
         line-height: 17px;
     }

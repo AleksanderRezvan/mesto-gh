@@ -3,7 +3,6 @@
     align-items: baseline;
     flex-wrap: wrap;
     max-width: 336px;
-
     margin-right: auto;
 }
 @media (max-width: 787px) {

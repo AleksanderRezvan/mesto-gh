@@ -1,8 +1,7 @@
 .popup__form-job {
     margin-bottom: 48px;
-
     font-family: 'Inter', "Arial", sans-serif;
-    padding: 30px 0 13px;
+    padding: 30px 0 9px;
     font-size: 14px;
     line-height: 17px;
     border: none;
@@ -10,4 +9,10 @@
 }
 .popup__form-job:focus {
     outline: none;
+}
+
+@media (max-width: 500px) {
+    .popup__form-job {
+        margin-bottom: 44px;
+    }
 }
