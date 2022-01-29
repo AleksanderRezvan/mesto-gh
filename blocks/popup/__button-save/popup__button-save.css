@@ -2,6 +2,7 @@
     width: 100%;
     max-height: 50px;
     padding: 14px 0 18px;
+    margin-top: 48px;
     border: none;
     font-family: 'Inter', "Arial", sans-serif;
     font-size: 18px;
@@ -14,7 +15,7 @@
     .popup__button-save {
         font-size: 14px;
         line-height: 17px;
-        padding-top: 17px;
+        padding-top: 16px;
     }
 }
 .popup__button-save:hover {

@@ -14,96 +14,100 @@
             <img class="header__logo" src="img/logo.svg" alt="Логотип">
         </header>
 
-        <section class="profile">
-            <img class="profile__avatar" src="img/kysto.jpg" alt="Кусто">
-
-            <div class="profile__info">
-                <h1 class="profile__title">Жак-Ив Кусто</h1>
-                <button class="profile__info-button" type="button"></button>
-                <p class="profile__text">Исследователь океана</p>
-            </div>
-
-            <button class="profile__button" type="button"></button>
-        </section>
-
-        <section class="cards">
-
-            <article class="card">
-                <img class="card__image" src="img/karachaevsk.jpg" alt="Карачаевск">
-
-                <div class="card__content">
-                    <h3 class="card__title">Карачаевск</h3>
-
-                    <div class="card__like"></div>
+        <main>
+            <section class="profile">
+                <img class="profile__avatar" src="img/kysto.jpg" alt="Ваш аватар">
+    
+                <div class="profile__info">
+                    <h1 class="profile__title">Жак-Ив Кусто</h1>
+                    <button type="button" class="profile__info-button" aria-label="кнопка"></button>
+                    <p class="profile__text">Исследователь океана</p>
                 </div>
-            </article>
-
-            <article class="card">
-                <img class="card__image" src="img/elbrus.jpg" alt="Эльбрус">
-
-                <div class="card__content">
-                    <h3 class="card__title">Эльбрус</h3>
-
-                    <div class="card__like"></div>
-                </div>
-            </article>
-
-            <article class="card">
-                <img class="card__image" src="img/dombai.jpg" alt="Домбай">
-
-                <div class="card__content">
-                    <h3 class="card__title">Домбай</h3>
-
-                    <div class="card__like"></div>
-                </div>
-            </article>
-
-            <article class="card">
-                <img class="card__image" src="img/elbrus.jpg" alt="Эльбрус">
-
-                <div class="card__content">
-                    <h3 class="card__title">Эльбрус</h3>
-
-                    <div class="card__like"></div>
-                </div>
-            </article>
-
-            <article class="card">
-                <img class="card__image" src="img/karachaevsk.jpg" alt="Карачаевск">
-
-                <div class="card__content">
-                    <h3 class="card__title">Карачаево-Черкессия</h3>
-
-                    <div class="card__like"></div>
-                </div>
-            </article>
-
-            <article class="card">
-                <img class="card__image" src="img/dombai.jpg" alt="Домбай">
-
-                <div class="card__content">
-                    <h3 class="card__title">Домбай</h3>
-
-                    <div class="card__like"></div>
-                </div>
-            </article>
-
-        </section>
+    
+                <button type="button" class="profile__button" aria-label="понравилось"></button>
+            </section>
+    
+            <section class="cards">
+    
+                <article class="card">
+                    <img class="card__image" src="img/karachaevsk.jpg" alt="Карачаевск">
+    
+                    <div class="card__content">
+                        <h3 class="card__title">Карачаевск</h3>
+    
+                        <button type="button" class="card__like" aria-label="понравилось"></button>
+                    </div>
+                </article>
+    
+                <article class="card">
+                    <img class="card__image" src="img/elbrus.jpg" alt="Эльбрус">
+    
+                    <div class="card__content">
+                        <h3 class="card__title">Эльбрус</h3>
+    
+                        <button type="button" class="card__like" aria-label="понравилось"></button>
+                    </div>
+                </article>
+    
+                <article class="card">
+                    <img class="card__image" src="img/dombai.jpg" alt="Домбай">
+    
+                    <div class="card__content">
+                        <h3 class="card__title">Домбай</h3>
+    
+                        <button type="button" class="card__like" aria-label="понравилось"></button>
+                    </div>
+                </article>
+    
+                <article class="card">
+                    <img class="card__image" src="img/elbrus.jpg" alt="Эльбрус">
+    
+                    <div class="card__content">
+                        <h3 class="card__title">Эльбрус</h3>
+    
+                        <button type="button" class="card__like" aria-label="понравилось"></button>
+                    </div>
+                </article>
+    
+                <article class="card">
+                    <img class="card__image" src="img/karachaevsk.jpg" alt="Карачаевск">
+    
+                    <div class="card__content">
+                        <h3 class="card__title">Карачаево-Черкессия</h3>
+    
+                        <button type="button" class="card__like" aria-label="понравилось"></button>
+                    </div>
+                </article>
+    
+                <article class="card">
+                    <img class="card__image" src="img/dombai.jpg" alt="Домбай">
+    
+                    <div class="card__content">
+                        <h3 class="card__title">Домбай</h3>
+    
+                        <button type="button" class="card__like" aria-label="понравилось"></button>
+                    </div>
+                </article>
+    
+            </section>
+        </main>
 
         <footer class="footer">
-            <p class="footer__copyright">&#169; 2020 Mesto Russia</p>
+            <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
         </footer>
     </div>
 
     <div class="popup">
         <div class="popup__container">
             <h3 class="popup__title">Редактировать профиль</h3>
-            <form class="popup__form" action="#" method="post">
-                <input class="popup__form-name" type="text" name="name" value="Жак-Ив Кусто">
-                <input class="popup__form-job" type="text" name="job" value="Исследователь океана">
+            <form class="popup__form" action="#" method="post" name="popup-form-profile">
+                <input class="popup__form-input" id="popup-input-name" type="text" name="name"
+                 value="Жак-Ив Кусто">
+                <input class="popup__form-input" id="popup-input-job" type="text" name="job"
+                 value="Исследователь океана">
                 <button class="popup__button-save" type="submit">Сохранить</button>
-                <button class="popup__close" type="button"></button>
             </form>
+            <button class="popup__close" type="button"></button>
         </div>
     </div>
 

@@ -14,6 +14,7 @@
 1. :white_check_mark: Доработка JavaScript
 2. :white_check_mark: Улучшение функционала
 3. :white_check_mark: Проработка по изоброжением
+
 -----------------------------------
 
 https://aleksanderrezvan.github.io/mesto-gh/

@@ -4,10 +4,11 @@
     padding: 0;
     border: 1px solid #ffffff;
     color: inherit;
-    background-color: #000000;
+    background-color: transparent;
     background-image: url(../../../img/pencil.svg);
     background-repeat: no-repeat;
     background-position: center center;
+    cursor: pointer;
 }
 @media (max-width: 787px) {
     .profile__info-button {
@@ -16,6 +17,5 @@
     }
 }
 .profile__info-button:hover {
-    cursor: pointer;
     opacity: 0.6;
 }
