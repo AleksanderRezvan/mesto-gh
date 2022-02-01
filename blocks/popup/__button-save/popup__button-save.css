@@ -15,7 +15,8 @@
     .popup__button-save {
         font-size: 14px;
         line-height: 17px;
-        padding-top: 16px;
+        padding: 14px 0;
+        margin-top: 45px;
     }
 }
 .popup__button-save:hover {

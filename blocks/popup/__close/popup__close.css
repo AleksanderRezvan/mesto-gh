@@ -16,8 +16,9 @@
     .popup__close {
         width: 20px;
         height: 20px;
-        top: -37px;
+        top: -33px;
         right: 0;
+        background-image: url("../../../img/popup-close-icon-mini.svg");
     }
 }
 .popup__close:hover {

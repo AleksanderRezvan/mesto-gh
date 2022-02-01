@@ -12,11 +12,14 @@ let profileText = document.querySelector('.profile__text');
 
 // открытие, закрытие попаба.
 function openPopup() {
-    popup.classList.add('popup_opened')
+    popup.classList.add('popup_opened');
+    
+    nameInput.value = profileName.textContent;
+    jobInput.value = profileText.textContent;
 }
 
 function closePopup() {
-    popup.classList.remove('popup_opened')
+    popup.classList.remove('popup_opened');
 }
 
 // форма
